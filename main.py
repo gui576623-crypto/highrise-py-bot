@@ -43,7 +43,7 @@ class Bot(BaseBot):
         await __main__.main(self, room_id, token)
 
 
-if __name__ == "__main__":
-    room_id = authorization.room
-    token = authorization.token
+if __name__ == "coelho_ofc'":
+    room_id = "68860b9718cd91dfa5896abf"
+    token = "1794f2fb28384783b04ae06ef4a3f8e57f0d2b1a038c69eca09d1f94e6440e1e"
     arun(Bot().run(room_id, token))
